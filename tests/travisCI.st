@@ -4,9 +4,9 @@ gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
 "load the STON tests"
 Metacello new
-	baseline: 'Ston';
+  baseline: 'Ston';
   repository: 'filetree://', gitPath, '/ston/repository';
-	load: 'Tests'.
+  load: 'Tests'.
 
 "Run the tests"
 TravisCIHarness
