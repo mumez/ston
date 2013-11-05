@@ -6,5 +6,5 @@ testDatesAndTimes
       {(Time fromSeconds: Time now asSeconds).
       (Date today).
       (DateAndTime fromString: DateAndTime now asString).	"normalize for comparison purposes"
-      (TimeStamp now)}.
+      (TimeStamp fromString: TimeStamp now asString)}.			"normalize for comparison purposes"
   self serializeAndMaterialize: datesAndTimes
