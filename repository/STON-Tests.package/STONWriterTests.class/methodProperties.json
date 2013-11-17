@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"materialize:" : "dkh 10/26/2013 09:03",
 		"serialize:" : "SvenVanCaekenberghe 5/5/2012 20:06",
 		"serializeJson:" : "SvenVanCaekenberghe 5/15/2012 09:33",
 		"serializePretty:" : "SvenVanCaekenberghe 5/5/2012 20:05",
@@ -11,7 +12,7 @@
 		"testDate" : "SvenVanCaekenberghe 1/23/2012 09:33",
 		"testDateAndTime" : "SvenVanCaekenberghe 1/19/2012 10:00",
 		"testDictionary" : "SvenVanCaekenberghe 5/5/2012 20:15",
-		"testDictionaryWithComplexKeys" : "SvenVanCaekenberghe 10/25/2012 15:37",
+		"testDictionaryWithComplexKeys" : "dkh 10/26/2013 09:02",
 		"testDoubleQuotedString" : "SvenVanCaekenberghe 5/5/2012 19:10",
 		"testEmptyArrayPretty" : "SvenVanCaekenberghe 5/5/2012 19:09",
 		"testEmptyDictionaryPretty" : "SvenVanCaekenberghe 5/5/2012 19:09",
