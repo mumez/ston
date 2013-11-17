@@ -23,8 +23,10 @@ Metacello new
 for details on installing Metacello.*
 
 ### TravisCI Status
-**gemstone** : [![Build Status](https://secure.travis-ci.org/glassdb/ston.png?branch=gemstone)](http://travis-ci.org/glassdb/ston) 
 
+**configuration** : [![Build Status](https://secure.travis-ci.org/glassdb/ston.png?branch=configuration)](http://travis-ci.org/glassdb/ston) 
+
+**gemstone** : [![Build Status](https://secure.travis-ci.org/glassdb/ston.png?branch=gemstone)](http://travis-ci.org/glassdb/ston) 
 ## Please read the [Smalltalk Object Notation](https://github.com/svenvc/ston/blob/master/ston-paper.md) paper
 
 
