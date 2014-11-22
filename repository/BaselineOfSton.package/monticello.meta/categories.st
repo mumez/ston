@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfSton!
+SystemOrganization addCategory: #'BaselineOfSton'!
