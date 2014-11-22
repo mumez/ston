@@ -12,10 +12,16 @@ Implementations for Pharo Smalltalk, Squeak and Gemstone Smalltalk are available
 ### Installation
 
 ```Smalltalk
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGLASS1.
+
 Metacello new
-	baseline: 'Ston';
-	repository: 'github://glassdb/ston:gemstone';
-	load.
+  baseline: 'Ston';
+  repository: 'github://glassdb/ston:gemstone';
+  load.
 ```
 
 *See the [Metacello installation instructions](https://github.com/glassdb/metacello-work/blob/master/README.md) 
