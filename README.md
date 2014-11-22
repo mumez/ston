@@ -20,7 +20,7 @@ Gofer new
 
 Metacello new
   baseline: 'Ston';
-  repository: 'github://glassdb/ston:gemstone';
+  repository: 'github://GsDevKit/ston:gemstone/repository';
   load.
 ```
 
