@@ -2,6 +2,12 @@
 | gitPath |
 gitPath := (FileDirectory default directoryNamed: 'git_cache') fullName.
 
+Gofer new
+  package: 'GsUpgrader-Core';
+  url: 'http://ss3.gemtalksystems.com/ss/gsUpgrader';
+  load.
+(Smalltalk at: #GsUpgrader) upgradeGLASS1.
+
 "load the STON tests"
 Metacello new
   baseline: 'Ston';
