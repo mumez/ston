@@ -8,4 +8,4 @@ lookupClass: name
 		ifAbsentPut: [
 			Object allSubclasses 
 				detect: [ :cls | cls stonName == name ] 
-				ifNone: [ self error: 'Cannot resolve cls named ', name printString ] ]
+				ifNone: [ self error: 'Cannot resolve class named ', name printString ] ]
