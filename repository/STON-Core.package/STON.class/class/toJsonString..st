@@ -1,4 +1,3 @@
 convenience
 toJsonString: object
-	^ String streamContents: [ :stream |
-		self put: object asJsonOnStream: stream ]
+  ^ String streamContents: [ :stream | self put: object asJsonOnStream: stream ]

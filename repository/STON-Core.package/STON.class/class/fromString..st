@@ -1,3 +1,3 @@
 convenience
 fromString: string
-	^ self fromStream: string readStream
+  ^ self fromStream: string readStream

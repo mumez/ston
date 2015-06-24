@@ -1,4 +1,3 @@
 convenience
 toStringPretty: object
-	^ String streamContents: [ :stream |
-		self put: object onStreamPretty: stream ]
+  ^ String streamContents: [ :stream | self put: object onStreamPretty: stream ]
