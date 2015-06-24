@@ -1,7 +1,7 @@
 private
 encodeString: string
   | encodedString |
-  encodedString := string encodeAsUTF8 asString.
+  encodedString := string encodeAsUTF8intoString.
   writeStream
     nextPut:
       (jsonMode
