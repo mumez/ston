@@ -1,0 +1,14 @@
+{
+	"category" : "STON-UTF8-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 06/26/2015 11:33",
+	"instvars" : [
+		 ],
+	"name" : "STONUtf8Reader",
+	"pools" : [
+		 ],
+	"super" : "STONReader",
+	"type" : "normal" }

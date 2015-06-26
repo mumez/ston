@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "dkh 06/26/2015 11:36" },
 	"instance" : {
 		"materialize:" : "SvenVanCaekenberghe 5/5/2012 20:02",
 		"testBoolean" : "SvenVanCaekenberghe 1/15/2012 10:46",
@@ -33,4 +33,4 @@
 		"testTimeStamp" : "SvenVanCaekenberghe 1/23/2012 09:51",
 		"testUser" : "SvenVanCaekenberghe 1/23/2012 16:13",
 		"testUser2" : "SvenVanCaekenberghe 2/7/2012 20:48",
-		"testWhitespace" : "SvenVanCaekenberghe 5/7/2012 13:39" } }
+		"testWhitespace" : "dkh 06/26/2015 12:42" } }

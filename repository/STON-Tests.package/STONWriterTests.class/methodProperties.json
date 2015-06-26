@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "dkh 06/26/2015 11:37" },
 	"instance" : {
 		"materialize:" : "dkh 10/26/2013 09:03",
 		"serialize:" : "SvenVanCaekenberghe 5/5/2012 20:06",

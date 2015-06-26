@@ -1,0 +1,14 @@
+{
+	"category" : "STON-UTF8-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 06/26/2015 11:32",
+	"instvars" : [
+		 ],
+	"name" : "STONUtf8Writer",
+	"pools" : [
+		 ],
+	"super" : "STONWriter",
+	"type" : "normal" }
