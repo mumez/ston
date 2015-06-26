@@ -2,10 +2,13 @@
 	"class" : {
 		"shouldInheritSelectors" : "dkh 06/26/2015 11:37" },
 	"instance" : {
-		"materialize:" : "dkh 10/26/2013 09:03",
-		"serialize:" : "SvenVanCaekenberghe 5/5/2012 20:06",
-		"serializeJson:" : "SvenVanCaekenberghe 5/15/2012 09:33",
-		"serializePretty:" : "SvenVanCaekenberghe 5/5/2012 20:05",
+		"jsonWriter" : "dkh 06/26/2015 16:26",
+		"materialize:" : "dkh 06/26/2015 16:29",
+		"prettyWriter" : "dkh 06/26/2015 16:37",
+		"reader" : "dkh 06/26/2015 16:30",
+		"serialize:" : "dkh 06/26/2015 16:25",
+		"serializeJson:" : "dkh 06/26/2015 16:25",
+		"serializePretty:" : "dkh 06/26/2015 16:27",
 		"testBoolean" : "SvenVanCaekenberghe 1/14/2012 15:50",
 		"testByteArray" : "dkh 4/29/2012 08:48:15",
 		"testCustomNewline" : "SvenVanCaekenberghe 3/7/2013 10:52",
@@ -39,4 +42,5 @@
 		"testUser" : "SvenVanCaekenberghe 11/13/2013 23:58",
 		"testUser2" : "SvenVanCaekenberghe 11/13/2013 23:58",
 		"testUser3Nil" : "SvenVanCaekenberghe 11/13/2013 23:56",
-		"testUserNil" : "SvenVanCaekenberghe 11/13/2013 23:56" } }
+		"testUserNil" : "SvenVanCaekenberghe 11/13/2013 23:56",
+		"writer" : "dkh 06/26/2015 16:24" } }

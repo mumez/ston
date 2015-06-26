@@ -1,6 +1,6 @@
 private
 materialize: string
-  ^ STON reader
+  ^ self reader
     on: string readStream;
     allowComplexMapKeys: true;
     next
