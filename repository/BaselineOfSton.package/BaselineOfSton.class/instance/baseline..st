@@ -22,4 +22,11 @@ baseline: spec
       spec
         package: 'STON-Core' with: [ spec includes: #('STON-Pharo-Core') ];
         package: 'STON-Pharo-Core' with: [ spec requires: #('STON-Core') ];
+        yourself ].
+  spec
+    for: #'gemstone'
+    do: [ 
+      spec
+        package: 'STON-Core' with: [ spec includes: #('STON-GemStone-Core') ];
+        package: 'STON-GemStone-Core' with: [ spec requires: #('STON-Core') ];
         yourself ]
