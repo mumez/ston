@@ -1,5 +1,4 @@
 "Load and run tests to be performed by TravisCI"
-| gitPath |
 | gitCache gitPath loadBlock |
 Transcript cr; show: 'travis---->travisCI.st'.
 
