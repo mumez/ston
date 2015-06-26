@@ -1,4 +1,4 @@
-private
+*ston-gemstone-core
 encodeCharacter: char
   | code encoding |
   ((code := char codePoint) < 127
