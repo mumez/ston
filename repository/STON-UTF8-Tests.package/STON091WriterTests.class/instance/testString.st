@@ -6,6 +6,12 @@ testString
   self
     assert:
       (x := self serialize: 'élève en Français') = '''Ã©lÃ¨ve en FranÃ§ais'''.
+  self
+    assert:
+      (x := self serialize: 'Я можу їсти скло, і воно мені не зашкодить.')
+        =
+          '''Ð¯ Ð¼Ð¾Ð¶Ñ ÑÑÑÐ¸ ÑÐºÐ»Ð¾, Ñ Ð²Ð¾Ð½Ð¾ Ð¼ÐµÐ½Ñ Ð½Ðµ Ð·Ð°ÑÐºÐ¾Ð´Ð¸ÑÑ.'''.
+  self assert: (x := self serialize: '𣎏') = '''ð£'''.
   string := String
     withAll:
       {$".

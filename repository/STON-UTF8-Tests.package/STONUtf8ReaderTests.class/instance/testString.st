@@ -1,10 +1,17 @@
 tests
 testString
-  | string |
+  | string x |
   self assert: (self materialize: '''foo''') = 'foo'.
   self assert: (self materialize: '''FOO''') = 'FOO'.
   self
     assert: (self materialize: '''Ã©lÃ¨ve en FranÃ§ais''') = 'élève en Français'.
+  self
+    assert:
+      (x := self
+        materialize:
+          '''Ð¯ Ð¼Ð¾Ð¶Ñ ÑÑÑÐ¸ ÑÐºÐ»Ð¾, Ñ Ð²Ð¾Ð½Ð¾ Ð¼ÐµÐ½Ñ Ð½Ðµ Ð·Ð°ÑÐºÐ¾Ð´Ð¸ÑÑ.''')
+        = 'Я можу їсти скло, і воно мені не зашкодить.'.
+  self assert: (x := self materialize: '''ð£''') = '𣎏'.
   string := String
     withAll:
       {$".

@@ -1,6 +1,11 @@
 private
 serialize: anObject
-	^ String streamContents: [ :stream |
-		STON writer 
-			on: stream;
-			nextPut: anObject ]
+  | str |
+  str := String
+    streamContents: [ :stream | 
+      self writer
+        on: stream;
+        nextPut: anObject ].
+  self encodeOnSerialize
+    ifFalse: [ ^ str ].
+  ^ str encodeAsUTF8intoString

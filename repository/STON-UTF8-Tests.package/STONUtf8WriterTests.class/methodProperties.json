@@ -2,11 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"materialize:" : "dkh 06/26/2015 16:33",
+		"encodeOnSerialize" : "dkh 06/26/2015 17:03",
 		"reader" : "dkh 06/26/2015 16:31",
-		"serialize:" : "dkh 06/26/2015 16:33",
-		"serializeJson:" : "dkh 06/26/2015 16:33",
-		"serializePretty:" : "dkh 06/26/2015 16:33",
 		"testDoubleQuotedString" : "dkh 06/26/2015 16:47",
-		"testString" : "dkh 06/26/2015 16:51",
+		"testString" : "dkh 06/26/2015 17:39",
 		"writer" : "dkh 06/26/2015 16:28" } }
