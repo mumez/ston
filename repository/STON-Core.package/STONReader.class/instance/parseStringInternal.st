@@ -9,4 +9,4 @@ parseStringInternal
       [ readStream atEnd or: [ readStream peek = delimiter ] ]
         whileFalse: [ stream nextPut: self parseCharacter ] ].
   self expectChar: delimiter.
-  ^ result decodeFromUTF8
+  ^ result
