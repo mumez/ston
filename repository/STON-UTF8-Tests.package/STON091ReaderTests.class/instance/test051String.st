@@ -12,5 +12,8 @@ test051String
       (x := self
         materialize:
           '''\u00D0\u00AF \u00D0\u00BC\u00D0\u00BE\u00D0\u00B6\u00D1\u0083 \u00D1\u0097\u00D1\u0081\u00D1\u0082\u00D0\u00B8 \u00D1\u0081\u00D0\u00BA\u00D0\u00BB\u00D0\u00BE, \u00D1\u0096 \u00D0\u00B2\u00D0\u00BE\u00D0\u00BD\u00D0\u00BE \u00D0\u00BC\u00D0\u00B5\u00D0\u00BD\u00D1\u0096 \u00D0\u00BD\u00D0\u00B5 \u00D0\u00B7\u00D0\u00B0\u00D1\u0088\u00D0\u00BA\u00D0\u00BE\u00D0\u00B4\u00D0\u00B8\u00D1\u0082\u00D1\u008C.''')
-        = 'Я можу їсти скло, і воно мені не зашкодить.'.
-  self assert: (x := self materialize: '''\u00F0\u00A3\u008E\u008F''') = '𣎏'
+        = self unicode16TestString.
+  self
+    assert:
+      (x := self materialize: '''\u00F0\u00A3\u008E\u008F''')
+        = self unicode32TestString

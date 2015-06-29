@@ -10,8 +10,8 @@ testString
       (x := self
         materialize:
           '''Ð¯ Ð¼Ð¾Ð¶Ñ ÑÑÑÐ¸ ÑÐºÐ»Ð¾, Ñ Ð²Ð¾Ð½Ð¾ Ð¼ÐµÐ½Ñ Ð½Ðµ Ð·Ð°ÑÐºÐ¾Ð´Ð¸ÑÑ.''')
-        = 'Я можу їсти скло, і воно мені не зашкодить.'.
-  self assert: (x := self materialize: '''ð£''') = '𣎏'.
+        = self unicode16TestString.
+  self assert: (x := self materialize: '''ð£''') = self unicode32TestString.
   string := String
     withAll:
       {$".

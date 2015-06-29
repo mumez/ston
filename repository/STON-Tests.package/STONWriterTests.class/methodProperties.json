@@ -35,7 +35,7 @@
 		"testReferenceSharingError" : "SvenVanCaekenberghe 5/5/2012 20:07",
 		"testReferenceSharingIgnore" : "SvenVanCaekenberghe 5/5/2012 20:07",
 		"testRestrictedClassesInJsonMode" : "SvenVanCaekenberghe 5/5/2012 19:11",
-		"testString" : "dkh 06/26/2015 17:32",
+		"testString" : "dkh 06/29/2015 10:05",
 		"testSymbol" : "SvenVanCaekenberghe 2/14/2012 17:07",
 		"testSymbolAsString" : "SvenVanCaekenberghe 5/5/2012 19:12",
 		"testTime" : "dkh 4/29/2012 08:48:15",
@@ -44,4 +44,6 @@
 		"testUser2" : "SvenVanCaekenberghe 11/13/2013 23:58",
 		"testUser3Nil" : "SvenVanCaekenberghe 11/13/2013 23:56",
 		"testUserNil" : "SvenVanCaekenberghe 11/13/2013 23:56",
+		"unicode16TestString" : "dkh 06/29/2015 10:04",
+		"unicode32TestString" : "dkh 06/29/2015 10:04",
 		"writer" : "dkh 06/26/2015 16:24" } }

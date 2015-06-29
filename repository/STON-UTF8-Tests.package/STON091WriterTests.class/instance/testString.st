@@ -8,10 +8,10 @@ testString
       (x := self serialize: 'élève en Français') = '''Ã©lÃ¨ve en FranÃ§ais'''.
   self
     assert:
-      (x := self serialize: 'Я можу їсти скло, і воно мені не зашкодить.')
+      (x := self serialize: self unicode16TestString)
         =
           '''Ð¯ Ð¼Ð¾Ð¶Ñ ÑÑÑÐ¸ ÑÐºÐ»Ð¾, Ñ Ð²Ð¾Ð½Ð¾ Ð¼ÐµÐ½Ñ Ð½Ðµ Ð·Ð°ÑÐºÐ¾Ð´Ð¸ÑÑ.'''.
-  self assert: (x := self serialize: '𣎏') = '''ð£'''.
+  self assert: (x := self serialize: self unicode32TestString) = '''ð£'''.
   string := String
     withAll:
       {$".
