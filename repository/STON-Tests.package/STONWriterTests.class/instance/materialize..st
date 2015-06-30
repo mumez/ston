@@ -1,6 +1,10 @@
 private
 materialize: string
-  ^ STON reader
-    on: string readStream;
+  | str |
+  str := string.
+  self encodeOnSerialize
+    ifTrue: [ str := string decodeFromUTF8 ].
+  ^ self reader
+    on: str readStream;
     allowComplexMapKeys: true;
     next

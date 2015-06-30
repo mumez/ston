@@ -3,7 +3,9 @@ testDoubleQuotedString
   | string |
   self assert: (self serializeJson: 'foo') = '"foo"'.
   self assert: (self serializeJson: 'FOO') = '"FOO"'.
-  self assert: (self serializeJson: 'élève en Français') = '"\u00C3\u00A9l\u00C3\u00A8ve en Fran\u00C3\u00A7ais"'.
+  self
+    assert:
+      (self serializeJson: 'élève en Français') = '"\u00E9l\u00E8ve en Fran\u00E7ais"'.
   string := String
     withAll:
       {$".

@@ -5,7 +5,9 @@ testJsonString
   | string |
   self assert: (self materialize: '"foo"') = 'foo'.
   self assert: (self materialize: '"FOO"') = 'FOO'.
-  self assert: (self materialize: '"\u00C3\u00A9l\u00C3\u00A8ve en Fran\u00C3\u00A7ais"') = 'élève en Français'.
+  self
+    assert:
+      (self materialize: '"\u00E9l\u00E8ve en Fran\u00E7ais"') = 'élève en Français'.
   string := String
     withAll:
       {$".

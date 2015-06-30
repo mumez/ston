@@ -1,0 +1,14 @@
+{
+	"category" : "STON-UTF8-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"encounteredHexCharacter" ],
+	"name" : "STON091Reader",
+	"pools" : [
+		 ],
+	"super" : "STONReader",
+	"type" : "normal" }

@@ -1,7 +1,11 @@
 private
 serializePretty: anObject
-	^ String streamContents: [ :stream |
-		STON writer 
-			on: stream; 
-			prettyPrint: true;
-			nextPut: anObject ]
+  | str |
+  str := String
+    streamContents: [ :stream | 
+      self prettyWriter
+        on: stream;
+        nextPut: anObject ].
+  self encodeOnSerialize
+    ifFalse: [ ^ str ].
+  ^ str encodeAsUTF8intoString
