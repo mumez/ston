@@ -10,7 +10,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #include : {
-      #classes : [ #SentButNotImplementedTest, #UndefinedSymbolsTest ]
+      #classes : [ #UndefinedSymbolsTest ]
     },
     #failOnSCIDeprecationWarnings : false
   }
