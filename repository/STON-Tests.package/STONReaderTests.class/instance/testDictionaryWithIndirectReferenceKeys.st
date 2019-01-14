@@ -8,7 +8,6 @@ testDictionaryWithIndirectReferenceKeys
 		dictionary at: (Array with: each) put: index ].
 	object := Array with: keysCollection with: dictionary.
 	ston := STON toStringPretty: object.
-	object := (STON reader on: ston readStream) next.
+	object := (STON reader on: ston readStream; allowComplexMapKeys: true; yourself) next.
 	object first doWithIndex: [ :each :index |
 		self assert: (object second at: (Array with: each)) equals: index ].
-	self assert: object second isHealthy
