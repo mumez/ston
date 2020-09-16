@@ -33,4 +33,11 @@ baseline: spec
         package: 'STON-GemStone-Core' with: [ spec requires: #('STON-Core') ];
         package: 'STON-Tests' with: [ spec includes: #('STON-GemStone-Tests') ];
         package: 'STON-GemStone-Tests' with: [ spec requires: #('STON-Tests') ];
+        yourself ].
+  spec
+    for: #'gs3.6.x'
+    do: [ 
+      spec
+        package: 'STON-Core' with: [ spec includes: #('STON-GemStone-Core36x') ];
+        package: 'STON-GemStone-Core36x' with: [ spec requires: #('STON-Core') ];
         yourself ]
