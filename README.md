@@ -1,4 +1,4 @@
-# STON - Smalltalk Object Notation
+# STON - Smalltalk Object Notation [![Build Status](https://github.com/GsDevKit/ston/actions/workflows/ci.yml/badge.svg?branch=gemstone)](https://github.com/GsDevKit/ston/actions/workflows/ci.yml)
 
 
 A lightweight text-based, human-readable data interchange format 
