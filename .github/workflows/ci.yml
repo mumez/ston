@@ -13,6 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        os: [ ubuntu-20.04, macos-latest ]
         smalltalk: [ GemStone64-3.6.5, GemStone64-3.5.8 ]
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.smalltalk }}
