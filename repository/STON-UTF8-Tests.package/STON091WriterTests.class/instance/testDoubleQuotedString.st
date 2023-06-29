@@ -11,6 +11,7 @@ testDoubleQuotedString
       {$".
       $'.
       $\.
+      $/.
       (Character tab).
       (Character cr).
       (Character lf).
